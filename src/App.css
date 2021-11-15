@@ -78,6 +78,9 @@ button:hover {
 
 .circle:hover {
   background-color: rgb(93, 182, 255);
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🧯</text></svg>")
+      16 0,
+    auto; /*!emojicursor.app*/
 }
 
 .wrapper {
@@ -105,4 +108,44 @@ button:hover {
 
 .circle p {
   font-size: 2rem;
+}
+
+.active {
+  background-image: url("https://cdn.shopify.com/s/files/1/1061/1924/products/Fire_Emoji_grande.png?v=1480481043");
+  border: 25px solid red;
+}
+
+/* GAME OVER POPUP */
+
+.overlay {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.9);
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+}
+.gameover {
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  width: 600px;
+  padding: 15px;
+  border: solid black 1px;
+  z-index: 1001;
+  border-radius: 5px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#reload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  background-color: rgba(128, 128, 128, 0.9);
 }

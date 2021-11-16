@@ -7,7 +7,7 @@ const GameOver = (props) => {
         <div className="overlay">
             <div className="gameover">
                 <h2>GAME OVER</h2>
-                <p>You have put {props.score} fires 🔥</p>
+                <p>You have put out {props.score} fires 🔥</p>
                 <button type="submit" id="reload" onClick={props.closeHandler}>X</button>
             </div>
         </div>

@@ -47,7 +47,7 @@ button {
   padding: 25px;
   border: none;
   border-radius: 12px;
-  background-color: rgba(159, 255, 247, 0.932);
+  background-color: white;
   font-family: "Yomogi", cursive;
   font-size: x-large;
 }
@@ -149,4 +149,13 @@ button:hover {
   right: 0;
   padding: 5px;
   background-color: rgba(128, 128, 128, 0.9);
+}
+
+button:disabled,
+button[disabled] {
+  border: 1px solid #999999;
+  background-color: darkgrey;
+  color: #fff;
+  padding: 10px;
+  cursor: not-allowed;
 }

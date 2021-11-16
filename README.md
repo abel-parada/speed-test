@@ -2,6 +2,8 @@
 
 To extinguish fires, click on the corresponding active fire at the right time. Difficulty increases progressively ;).
 
+Miss one fire or don't put any fires off during 5 turns and you are burnt :S.
+
 This has been done in my 7th lesson session learning React.
 
 ## Technologies used
